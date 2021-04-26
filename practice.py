@@ -1,0 +1,18 @@
+lang="VIKAS"
+print(lang[::-1])
+print(7**3)
+print("\U0009F567")
+print("\U0001F602")
+print("\U0001F604")
+print(round(2**0.5,4))
+print((2+3)*5/2%6)
+print(2**3**2)
+print("VIKAS "*3)
+print(lang+str(3))
+name=input("enter your name :")
+print(name)
+num1,num2=input("enter the two numbers :").split(",")
+print(f"Added two numbers sum is {int(num1)+int(num2)}")
+x=y=z=1
+print(x+y+z)
+print(lang[::2])
