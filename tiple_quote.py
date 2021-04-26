@@ -1,0 +1,2 @@
+print('''Vikas''')
+print("""Vikas""")
