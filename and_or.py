@@ -12,3 +12,5 @@ if name=='abc' or age==19:  #or example
         print("True")
 else:
     print("False")
+
+#we can use elif instead of using if else consecutively
