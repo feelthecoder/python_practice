@@ -1,3 +1,7 @@
+#Given a function which accept 3 argument. If occurence of the second argument in first argument is equal to the third argument return True else False.
+
+#function maxOccurence(str1: str, str2: str, num: int) -> bool:
+
 def subcount(a,word):
     count=0
     for i in range(len(a)-len(word)):
