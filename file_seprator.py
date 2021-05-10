@@ -16,7 +16,7 @@ folders = {
 print("Looking & Seprating Files..")
 def file_finder(folder_path,extension):
     files = []
-    for file in os.listdir(folder_path):
+    for file in os.listdir(folder_path):   # For each and every directory inside a directory you have to use os.walk(folder_path) method and other things will remains almost same.
         for ext in extension:
             if file.endswith(ext):
                 files.append(file)
